@@ -1,30 +1,27 @@
 ---
 title: ""
+description: "Nousagi Gang is a Filipino multi-gaming community founded in 2022, which has continued to develop in different games over the years."
 ---
 
-# 📢 WEBSITE MIGRATION NOTICE
+![Nousagi Gang banner](/banners/standard.gif)
 
-Hello, everyone!
+**Nousagi Gang** is a Filipino gaming collective, united by our love for text-based MMORPGs like [CyberCode Online](https://cybercodeonline.com) and [Arclight City](https://arclightcity.net). We enjoy playing together and sharing our experiences.
 
-We're excited to announce that our website has officially moved to a new address.
+{{< button href="about" target="_self" >}}
+{{< icon "circle-info" >}} &nbsp; Learn more
+{{< /button >}}
 
-👉 **New Website:** https://NousagiGang.web.app
+<br />
+<br />
 
-We've decided to make this change for two main reasons:
+### Explore the Community
 
-## A shorter, easier-to-remember web address.
+* [**History & Legacy**](/history) – Learn how NSG was founded and how the community grew.
+* [**Gaming Guidelines**](/gaming-guidelines) – The principles that guide our conduct as gamers.
+* [**HOP Protocol**](/hop-protocol) – Our internal framework for cooperation and organization.
 
-> Our new domain is simpler to type, share, and remember, making it more convenient for everyone.
+NSG continues to grow with every new member and every new adventure.
 
-## Ongoing deployment issues with our previous website.
-
-> We've been experiencing a deployment problem with our old website for over a week. While we're still working to identify and resolve the issue, we've decided not to let it delay access to our content. Even if the issue is eventually resolved, we plan to continue using our new website address moving forward.
-
----
-
-Going forward, all updates, resources, and new content will be available through our new website. If you have our old website bookmarked, please update it to the new address.
-
-Thank you for your patience and continued support. We look forward to welcoming you to our new online home!
-
-*&mdash; [K4LM3D](https://github.com/k4lm3d)*\
-2026.06.30
+<br />
+<br />
+<br />
