@@ -1,3 +1,3 @@
-module github.com/nousagigang/temp
+module github.com/nousagigang/nsggang
 
 go 1.24
