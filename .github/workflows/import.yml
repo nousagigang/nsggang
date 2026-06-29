@@ -21,19 +21,19 @@ jobs:
 
       - name: Replace config folder
         run: |
-          rm -rf config
-          cp -R source/config ./config
+          rm -rf content/news
+          cp -R source/content ./content
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add config
+          git add content/news
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Import config folder from nousagigang/nousagigang"
+            git commit -m "Import content/news folder from nousagigang/nousagigang"
             git push origin HEAD:main
           fi
