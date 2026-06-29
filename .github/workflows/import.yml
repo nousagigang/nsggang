@@ -1,4 +1,4 @@
-name: Import Static Folder
+name: Import Folder
 
 on:
   workflow_dispatch:
@@ -17,23 +17,23 @@ jobs:
           ref: main
 
       - name: Clone source repo
-        run: git clone --depth 1 https://github.com/k4lm3d/nsg.git source
+        run: git clone --depth 1 https://github.com/nousagigang/nousagigang.git source
 
-      - name: Replace static folder
+      - name: Replace config folder
         run: |
-          rm -rf static
-          cp -R source/static ./static
+          rm -rf config
+          cp -R source/config ./config
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add static
+          git add config
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Import static folder from k4lm3d/nsg"
+            git commit -m "Import config folder from nousagigang/nousagigang"
             git push origin HEAD:main
           fi
