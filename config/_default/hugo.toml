@@ -70,4 +70,5 @@ enableEmoji = true
 
 [module]
   [[module.imports]]
+    disable = false
     path = "github.com/nunocoracao/blowfish/v2"

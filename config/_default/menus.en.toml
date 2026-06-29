@@ -10,6 +10,84 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+[[main]]
+  name = "About"
+  weight = 10
+
+[[main]]
+  name = "About Us"
+  parent = "About"
+  pageRef = "about"
+  weight = 11
+
+[[main]]
+  name = "History & Legacy"
+  parent = "About"
+  pageRef = "history"
+  weight = 12
+
+[[main]]
+  name = "Contact Us"
+  parent = "About"
+  pageRef = "contact"
+  weight = 13
+
+[[main]]
+  name = "Harewire"
+  parent = "About"
+  pageRef = "harewire"
+  weight = 14
+
+[[main]]
+  name = "News"
+  weight = 20
+
+[[main]]
+  name = "Gang News"
+  parent = "News"
+  pageRef = "news"
+  weight = 21
+
+[[main]]
+  name = "Operations"
+  parent = "News"
+  pageRef = "ops"
+  weight = 22
+
+[[main]]
+  name = "Members"
+  weight = 30
+
+[[main]]
+  name = "Gang Members"
+  parent = "Members"
+  pageRef = "members"
+  weight = 31
+
+[[main]]
+  name = "Leadership"
+  parent = "Members"
+  pageRef = "leadership"
+  weight = 32
+
+[[main]]
+  name = "Roles"
+  parent = "Members"
+  pageRef = "roles"
+  weight = 33
+
+[[main]]
+  name = "Roster"
+  parent = "Members"
+  pageRef = "roster"
+  weight = 34
+
+[[main]]
+  pre = "facebook"
+  title = "Facebook"
+  url = "https://facebook.com/nousagigangph"
+  weight = 50
+
 #[[main]]
 #  name = "Blog"
 #  pageRef = "posts"
@@ -57,13 +135,22 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
+[[footer]]
+  name = "Gaming Guidelines"
+  pageRef = "gaming-guidelines"
+  weight = 10
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "HOP Protocol"
+  pageRef = "hop-protocol"
+  weight = 11
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[footer]]
+  name = "Privacy Policy"
+  pageRef = "legal"
+  weight = 12
+
+[[footer]]
+  name = "Site Resources"
+  pageRef = "resources"
+  weight = 13
