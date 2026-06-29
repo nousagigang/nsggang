@@ -1,0 +1,26 @@
+/*  Custom CSS: Customized for Fire Theme   */
+
+:root {
+    --neutral-color:    #78716c;
+    --primary-color:    #f97316;
+    --secondary-color:  #f43f5e;
+}
+
+::selection {
+    color:      var(--primary-color);
+    background: var(--secondary-color);
+}
+
+input,
+textarea {
+    box-sizing: border-box !important;
+    outline:    none !important;
+    border:     1px solid var(--primary-color) !important;
+    color:      var(--primary-color) !important;
+}
+
+input:focus,
+textarea:focus {
+    border:          1px solid var(--primary-color) !important;
+    --tw-ring-color: var(--primary-color) !important;
+}
