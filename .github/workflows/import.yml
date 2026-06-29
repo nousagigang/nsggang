@@ -22,7 +22,7 @@ jobs:
       - name: Replace config folder
         run: |
           rm -rf content/news
-          cp -R source/content ./content
+          cp -R source/content/news ./content
 
       - name: Commit and push changes
         run: |
